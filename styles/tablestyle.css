@@ -1,0 +1,228 @@
+			body{
+				background: rgba(0,0,0,0.9)url('/Doctor/img/nxp.jpg');
+				background-size:cover;
+				background-blend-mode: darken;
+				display: flex;
+				width: auto;
+				margin: 0;
+				padding: 0;
+				padding-top: 20px;
+				padding-left: 20px;
+
+			}
+			#main{
+				background: rgba(12,12,12,0.8);
+				background-blend-mode: darken;
+				border: 1px solid rgba(255,163,26,0.5);  /*#0c0c0c*/
+				border-radius: 15px;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				height: 600px;
+
+			}
+
+			table{
+				position: relative;
+				border-collapse: collapse;
+				padding: 10px;
+				margin-bottom: 30px;
+				font-family: calibri;
+				letter-spacing: 1px;
+			}
+
+			thead th{
+				background: rgba(128,0,0,0.5);
+				background-blend-mode: darken;
+				border: 2px solid black;
+				margin: 2px;
+				padding: 10px;
+				color: white;
+				letter-spacing: 1px;
+			}
+
+			tbody td{
+				cursor: pointer;
+				padding: 10px;
+				margin: 5px;
+				text-align: center;
+				color: #ffa31a;
+				font-size: 15px;
+				border: 1px solid rgba(255,163,26,0.9);
+				font-weight: bold;
+				text-shadow:
+	   			-1px -1px 0 #000,  
+	    		 1px -1px 0 #000,
+	    		-1px 1px 0 #000,
+	     		 1px 1px 0 #000;
+     			text-shadow: 1.5px 1.5px #000000;
+			}
+
+			.td2{
+				padding: 10px;
+				margin: 5px;
+				text-align: center;
+				color: #ffa31a;
+				font-size: 15px;
+				border: 1px solid rgba(255,163,26,0.9);
+				font-weight: bold;
+				text-shadow:
+	   			-1px -1px 0 #000,  
+	    		 1px -1px 0 #000,
+	    		-1px 1px 0 #000,
+	     		 1px 1px 0 #000;
+     			text-shadow: 1.5px 1.5px #000000;
+			}
+			
+
+			h1{
+				position: relative;
+				color: white;
+				font-family: calibri;
+				letter-spacing: 1px;
+				border-top-right-radius: 15px;
+				border-top-left-radius: 15px;
+			}
+
+			.text{
+				position: relative;
+				margin-top: 13px;
+				font-family: Poppins;
+				background-color: #1b1b1b;
+				color: white;
+				width: 350px;
+				height: 43px;
+				font-weight: 300;
+				font-size: 17px;
+				border-bottom-width: 1px;
+				border-bottom-color: #ffa31a;
+				text-align: center;
+				border-radius: 15px;
+			}
+			hr{
+				width: 290px;
+				margin-top: 0px !important;
+				position: relative;
+				bottom: 2px;
+				border: 1px solid #ffa31a;
+				border-radius: 10px;
+			}
+
+			#sub{
+				width: 150px;
+				height: 40px;
+				border-radius: 20px;
+				border: 1px solid #ffa31a;
+				margin-top: 13px;
+				margin-right: 100px;
+				font-family: Poppins;
+				font-size: 15px;
+				font-weight: 400;
+				background-color: #ffa31a;
+				color: black;
+				float: middle;
+
+			}
+			span{
+				color: black;
+				background-color: #ffa31a;
+				background-repeat: no-repeat;
+				background-size: 1px 1px;
+				border-radius: 4px;
+			}
+			.error{
+				background: #1238;
+				color: #A94442;
+				padding: 10px;
+				width: 80%;
+				border-radius: 5px;
+			}
+
+			.success{
+				background: #F2DEDE;
+				color: #A94442;
+				padding: 10px;
+				width: 80%;
+				border-radius: 5px;
+			}
+			.ba{
+				font-family: Poppins;
+				font-size: 20px;
+				letter-spacing: 1px;
+				display: inline-block;
+				padding: 10px;
+				font-weight: 270;
+				text-decoration: underline;
+				color: #ffa31a;
+
+			}
+
+			h2{
+				color: white;
+				font-family: calibri;
+				color: #ffa31a;
+				letter-spacing: 1px;
+				text-decoration: underline;
+			}
+
+			.image-con{
+				position: absolute;
+				top: 25px;
+				margin-left: 210px;
+				justify-content: center;
+				align-content: center;
+				width: 150px;
+				height: 150px;
+			}
+
+			.image-con img{
+				max-height: 70%;
+				max-width: 100%;
+				height: auto;
+			}
+
+			.ttbox {
+				position: relative;
+				padding: 5px;
+				color: black;
+				width: 163px;
+				height: 10px;
+				font-weight: bold;
+				border: none;
+				text-align: left;
+				bottom: 2px;
+			}
+
+			.sea{
+				padding: 5px 5px 5px 5px;
+			}
+
+			.lp{
+				position: relative;
+				font-family: calibri;
+				font-weight: bold;
+				font-size: 20px;
+				color: #ffa31a;
+				padding-right: 5px;
+				text-shadow:
+			   			-1px -1px 0 #000,  
+			    		 1px -1px 0 #000,
+			    		-1px 1px 0 #000,
+			     		 1px 1px 0 #000;
+			     text-shadow: 1.5px 1.5px #000000;
+			}
+			
+			.arbut{
+				position: relative;
+				background-color: #ffa31a;
+				font-family: Poppins;
+				font-size: 15px;
+				font-weight: 400;
+				cursor: pointer;
+				border-radius: 5px;
+				color: black;
+				width: 100px;
+				border: 1px solid #ffa31a;
+				bottom: 2px;
+				text-decoration: none;
+			}
